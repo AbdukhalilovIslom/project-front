@@ -1,0 +1,30 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.dark-theme {
+    background-color: #000;
+    color: #ffffff;
+}
+
+.light-theme {
+    color: #000;
+    background-color: #ffffff;
+}
+
+.active-navlink {
+    color: #000;
+    border-bottom: 1px solid black;
+    margin-right: 10px;
+}
+
+.navlink {
+    color: #000;
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+    margin-right: 10px;
+}
